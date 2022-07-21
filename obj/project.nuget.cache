@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AvYzbe3ZPTlpeX7/gRujTCbZ+t/nBp0SGb4TP+Ygn30JUDitpYf7E/Lp0wdMP1ncmzXbjBcmFJ1d7Oj4Vwr1wA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arthur\\Desktop\\Nova pasta\\wiproTeste\\wiproTeste.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arthur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
