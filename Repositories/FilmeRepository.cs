@@ -2,18 +2,34 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using wiproTeste.Data;
 using wiproTeste.Model;
 
 namespace wiproTeste.Repositories
 {
-    public class FilmeRepositorie
+    public interface IFilmeRepository
     {
-        public interface IFilmeRepositorie
+        void Add(Filme entity);
+        IEnumerable<Filme> GetFilme();
+        Filme GetFilme(string IdFilme);
+    }
+
+    public class FilmeRepository : IFilmeRepository
+    {
+        public void Add(Filme entity)
         {
-            void Add<T>(T entity) where T : class;
-            Task<bool> SaveAllAsync();
-            IEnumerable<Filme> GetFilme();
-            Filme GetFilme(int IdFilme);
+            Context.Filmes.Add(entity);
+        }
+
+        public IEnumerable<Filme> GetFilme()
+        {
+            return Context.Filmes;
+        }
+
+        public Filme GetFilme(string Titulo)
+        {
+            var FilmeUnico = Context.Filmes.Where(x => x.Titulo == Titulo).FirstOrDefault();
+            return FilmeUnico;
         }
     }
 }

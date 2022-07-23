@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arthur\\Desktop\\Nova pasta\\wiproTeste\\wiproTeste.csproj": {}
+    "C:\\Users\\arthur\\Desktop\\Nova pasta\\WiproTeste\\wiproTeste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arthur\\Desktop\\Nova pasta\\wiproTeste\\wiproTeste.csproj": {
+    "C:\\Users\\arthur\\Desktop\\Nova pasta\\WiproTeste\\wiproTeste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthur\\Desktop\\Nova pasta\\wiproTeste\\wiproTeste.csproj",
+        "projectUniqueName": "C:\\Users\\arthur\\Desktop\\Nova pasta\\WiproTeste\\wiproTeste.csproj",
         "projectName": "wiproTeste",
-        "projectPath": "C:\\Users\\arthur\\Desktop\\Nova pasta\\wiproTeste\\wiproTeste.csproj",
+        "projectPath": "C:\\Users\\arthur\\Desktop\\Nova pasta\\WiproTeste\\wiproTeste.csproj",
         "packagesPath": "C:\\Users\\arthur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arthur\\Desktop\\Nova pasta\\wiproTeste\\obj\\",
+        "outputPath": "C:\\Users\\arthur\\Desktop\\Nova pasta\\WiproTeste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arthur\\AppData\\Roaming\\NuGet\\NuGet.Config",

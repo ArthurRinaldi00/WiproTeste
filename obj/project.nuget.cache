@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AvYzbe3ZPTlpeX7/gRujTCbZ+t/nBp0SGb4TP+Ygn30JUDitpYf7E/Lp0wdMP1ncmzXbjBcmFJ1d7Oj4Vwr1wA==",
+  "dgSpecHash": "zA/M3HoC5wxwj8gmYh0dzim8WcEntZ1YSIKjiGzglLgqgc2eKaGCXPZ5ZdaD7d8OIsdma6TnyDVEajVlxUlbMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arthur\\Desktop\\Nova pasta\\wiproTeste\\wiproTeste.csproj",
+  "projectFilePath": "C:\\Users\\arthur\\Desktop\\Nova pasta\\WiproTeste\\wiproTeste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\arthur\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -1,8 +1,12 @@
+using System;
+
 namespace wiproTeste.Model
 {
     public class Cliente
     {
-        public int Id { get; set; }
+        public string Id { get; set; } = Guid.NewGuid().ToString();
         public string Nome { get; set; }
+
+        public string Cpf { get; set; }
     }
 }
