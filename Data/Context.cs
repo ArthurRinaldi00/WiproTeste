@@ -12,23 +12,27 @@ namespace wiproTeste.Data
                 new Model.Cliente {
                 Id = "73c0c202-a269-44de-93f0-567993008452",
                 Nome = "Arthur",
-                Cpf = "1"},
+                Cpf = "1",
+                ativo = true},
                
                 new Model.Cliente {
                 Id = "816e9558-0836-4029-a125-882179311b7b",
                 Nome = "Rinaldi",
-                Cpf = "2"}
+                Cpf = "2",
+                ativo = true}
         };
 
 
         public static List<Filme> Filmes = new List<Filme> { 
                 new Model.Filme {
                 IdFilme = "947eb10c-37d0-4b01-923e-9822e4904209",
-                Titulo = "Batman"},
+                Titulo = "Batman",
+                ativo = true},
 
                new Model.Filme {
                 IdFilme = "4d101c6b-5eb0-4d21-90c7-dc90c8f64eb7",
-                Titulo = "Minions" }
+                Titulo = "Minions",
+                ativo = true}
         };
 
         public static List<Locacao> locacoes = new List<Locacao> { 

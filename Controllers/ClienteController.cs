@@ -39,16 +39,11 @@ namespace wiproTeste.Controllers
             return Ok();
         }
 
-        // PUT api/<Cliente>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
         // DELETE api/<Cliente>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        public IActionResult Delete(string idCliente)
         {
+            return Ok(clienteService.Desativacao(idCliente));
         }
     }
 }

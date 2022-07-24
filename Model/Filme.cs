@@ -6,5 +6,6 @@ namespace wiproTeste.Model
     {
         public string IdFilme { get; set; } = Guid.NewGuid().ToString();
         public string Titulo { get; set; }
+        public bool ativo { get; set; }
     }
 }

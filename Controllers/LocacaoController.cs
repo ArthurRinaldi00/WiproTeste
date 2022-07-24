@@ -43,10 +43,13 @@ namespace wiproTeste.Controllers
             return Ok();
         }
 
-        // PUT api/<LocacaoController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/<LocacaoController>/Devolução
+        [HttpPut]
+        [Route("/Devolucao")]
+        public IActionResult Devolução([FromBody] Locacao entity)
         {
+            LocacaoService.DevolverFilme(entity);
+            return Ok();
         }
 
         // DELETE api/<LocacaoController>/5

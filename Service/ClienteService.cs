@@ -12,6 +12,7 @@ namespace wiproTeste.Service
         void Add(Cliente entity);
         IEnumerable<Cliente> GetCliente();
         Cliente GetCliente(string IdCliente);
+        bool Desativacao(string IdCliente);
     }
 
     public class ClienteService : IClienteService
@@ -44,6 +45,11 @@ namespace wiproTeste.Service
         public Cliente GetCliente(string IdCliente)
         {
           return clienteRepo.GetCliente(IdCliente);
+        }
+
+        public bool Desativacao(string IdCliente)
+        {
+            return clienteRepo.Delete(IdCliente);
         }
     }
 }

@@ -10,6 +10,5 @@ namespace wiproTeste.Model
         public DateTime DataDevolucao { get; set; }
         public string IdFilme { get; set; }
         public string IdCliente { get; set; }
-        public bool ativo { get; set; }
     }
 }

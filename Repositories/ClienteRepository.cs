@@ -12,10 +12,9 @@ namespace wiproTeste.Repositories
         void Add(Cliente entity);
         IEnumerable<Cliente> GetCliente();
         Cliente GetCliente(string IdCliente);
-
         bool ClienteExistente(Cliente entity);
+        bool Delete(string IdCliente);
     }
-
 
 
     public class ClienteRepository : IClienteRepository
@@ -42,5 +41,11 @@ namespace wiproTeste.Repositories
             return Cli;
         }
 
+        public bool Delete(string IdCliente)
+        {
+            var Desativacao = GetCliente(IdCliente);
+            Desativacao.ativo = false;
+            return Desativacao.ativo;
+        }
     }
 }

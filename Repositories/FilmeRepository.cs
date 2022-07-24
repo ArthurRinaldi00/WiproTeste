@@ -12,6 +12,7 @@ namespace wiproTeste.Repositories
         void Add(Filme entity);
         IEnumerable<Filme> GetFilme();
         Filme GetFilme(string IdFilme);
+        bool Delete(string Titulo);
     }
 
     public class FilmeRepository : IFilmeRepository
@@ -30,6 +31,13 @@ namespace wiproTeste.Repositories
         {
             var FilmeUnico = Context.Filmes.Where(x => x.Titulo == Titulo).FirstOrDefault();
             return FilmeUnico;
+        }
+
+        public bool Delete(string Titulo)
+        {
+            var Desativacao = GetFilme(Titulo);
+             Desativacao.ativo = false;
+            return Desativacao.ativo;
         }
     }
 }

@@ -12,6 +12,7 @@ namespace wiproTeste.Service
         void Add(Filme entity);
         IEnumerable<Filme> GetFilme();
         Filme GetFilme(string Titulo);
+        bool Desativacao(string Titulo);
     }
 
     public class FilmeService : IFilmeService
@@ -35,6 +36,11 @@ namespace wiproTeste.Service
         public Filme GetFilme(string Titulo)
         {
             return FilmeRepo.GetFilme(Titulo);
+        }
+
+        public bool Desativacao(string Titulo) 
+        {
+            return FilmeRepo.Delete(Titulo);
         }
     }
 }

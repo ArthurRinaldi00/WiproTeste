@@ -42,8 +42,8 @@ namespace wiproTeste.Repositories
 
         public bool LocacaoDisponivel(Locacao entity)
         {
-            var disponivel = Context.locacoes.Any(x => x.IdFilme == entity.IdFilme && x.DataDevolucao != default(DateTime));
-            return disponivel;
+            var disponivel = Context.locacoes.Where( x => x.IdFilme == entity.IdFilme && x.DataDevolucao != default(DateTime));
+            return disponivel.Count() == 0 || disponivel.Any();
         }
 
 
