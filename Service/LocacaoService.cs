@@ -19,6 +19,7 @@ namespace wiproTeste.Service
     {
         private readonly ILocacaoRepository locacaoRepo;
 
+
         public LocacaoService()
         {
             locacaoRepo = new LocacaoRepository();

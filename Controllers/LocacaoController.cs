@@ -47,9 +47,8 @@ namespace wiproTeste.Controllers
         [HttpPut]
         [Route("/Devolucao")]
         public IActionResult Devolução([FromBody] Locacao entity)
-        {
-            LocacaoService.DevolverFilme(entity);
-            return Ok();
+        {  
+            return Ok(LocacaoService.DevolverFilme(entity));
         }
 
         // DELETE api/<LocacaoController>/5
